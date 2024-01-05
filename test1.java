@@ -1,12 +1,12 @@
-import java.util.Scanner;
-class Test{
-
+// java program to demonstrate Narrow TypeCasting
+import java.io.*;
+class Test {
 public static void main(String args[]){
-Scanner scob=new Scanner(System.in);
-char c=scob.next().charAt(0);
-if(c>='A'&&c<='Z')
-System.out.println("YES");
-else
- System.out.println("NO");
+double i=100.245;
+short j=(short)i;
+int k=(int)i;
+System.out.println("Original Value before Casting"+i);
+System.out.println("After TypeCasting to short"+i);
+System.out.println("After TypeCasting to int"+i);
 }
 }
