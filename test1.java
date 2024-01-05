@@ -1,13 +1,12 @@
-importjava.util.Scannner;
+import java.util.Scanner;
 class Test{
-public static void checkEvenOdd(int a){
-	if(a%2==0)System.out.println("EVEN");
-	else
-	System.out.println("ODD");
-	}
+
 public static void main(String args[]){
-	Scanner scob=new Scanner(System.in);
-	int a=scob.nextInt();
-	Test.checkEvenOdd(a);
+Scanner scob=new Scanner(System.in);
+char c=scob.next().charAt(0);
+if(c>='A'&&c<='Z')
+System.out.println("YES");
+else
+ System.out.println("NO");
 }
 }
